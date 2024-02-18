@@ -1,4 +1,4 @@
-include "C:\\GameDev\\SmokLibraries\\Engine\\SmokGraphics"
+include "C:\\SmokSDK\\SmokGraphics"
 
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
@@ -21,17 +21,17 @@ includedirs
 {
     "includes",
 
-    "C:\\GameDev\\Libraries\\yaml-cpp\\include",
-    "C:\\GameDev\\Libraries\\glm",
+    "C:\\SmokSDK\\Libraries\\BTD-Libs\\yaml-cpp\\include",
+    "C:\\SmokSDK\\Libraries\\BTD-Libs\\glm",
     
-    "C:\\VulkanSDK\\1.3.239.0\\Include",
-    "C:\\GameDev\\Libraries\\VulkanMemoryAllocator\\include",
+    "C:\\VulkanSDK\\1.3.275.0\\Include",
+    "C:\\SmokSDK\\Libraries\\VulkanMemoryAllocator\\include",
 
-    "C:\\GameDev\\BTDSTD/includes",
-    "C:\\GameDev\\BTDSTD_C/includes",
+    "C:\\SmokSDK\\BTDSTD\\BTDSTD\\includes",
+    "C:\\SmokSDK\\BTDSTD\\BTDSTD_C\\includes",
 
     
-    "C:\\GameDev\\SmokLibraries\\Engine\\SmokGraphics\\includes"
+    "C:\\SmokSDK\\SmokGraphics\\includes"
 }
 
 links
